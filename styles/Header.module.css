@@ -50,7 +50,7 @@
   width: 50%;
   height: 60%;
   position: absolute;
-  top: 35%;
+  top: 28%;
   right: 0;
   color: white;
   display: flex;
@@ -75,7 +75,7 @@
   left: 50%;
   color: #fff;
   width: 40%;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.2em;
 }
 
