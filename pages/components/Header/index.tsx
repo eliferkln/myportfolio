@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../../../styles/Header.module.css";
 import { SiLinkedin, SiGithub, SiMedium } from "react-icons/si";
+import avatar from "../../../public/images/avatar2.png";
 
 const Header = ({ endTouched }: { endTouched: boolean }) => {
   return (
@@ -57,10 +58,10 @@ const Header = ({ endTouched }: { endTouched: boolean }) => {
       </div>
       <div className={styles.cuateFreelancer}>
         <Image
-          src="/Freelancer-cuate.svg"
+          src={avatar}
           alt=""
-          height="500"
-          width="500"
+          height="600"
+          width="600"
           layout="responsive"
         />
       </div>
