@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../../../styles/Header.module.css";
-import { SiLinkedin, SiGithub, SiMedium } from "react-icons/si";
+import { SiLinkedin, SiGithub } from "react-icons/si";
 import avatar from "../../../public/images/avatar2.png";
 
 const Header = ({ endTouched }: { endTouched: boolean }) => {

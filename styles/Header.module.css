@@ -58,7 +58,7 @@
 }
 
 .Iam {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
   margin: 0;
 }
@@ -76,7 +76,7 @@
   color: #fff;
   width: 40%;
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .mobileHamburger {
@@ -85,7 +85,10 @@
 
 @media screen and (max-width: 968px) {
   .headerTextContainer {
-    top: 20%;
+    top: 18%;
+  }
+  .MyName {
+    font-size: 3rem;
   }
 }
 
@@ -99,12 +102,16 @@
   }
 
   .cuateFreelancer {
-    display: none;
+    /* display: none; */
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 85%;
   }
 
   .headerTextContainer {
     width: 100%;
-    top: 10%;
+    top: 8%;
     padding: 20px;
   }
 
@@ -116,18 +123,56 @@
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .headerTextContainer {
+    top: 10%;
+    font-size: 14px;
+  }
+  .MyName {
+    font-size: 3rem;
+  }
   .description {
-    bottom: 30%;
+    bottom: 40%;
+    font-size: 14px;
   }
 }
 
+@media screen and (max-width: 500px) {
+  .headerTextContainer {
+    top: 12%;
+    font-size: 14px;
+  }
+  .MyName {
+    font-size: 3rem;
+  }
+  .description {
+    bottom: 30%;
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 400px) {
   .headerTextContainer {
-    top: 5%;
+    top: 12%;
+    font-size: 10px;
   }
-
+  .MyName {
+    font-size: 3rem;
+  }
   .description {
-    bottom: 18%;
+    bottom: 30%;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 255px) {
+  .headerTextContainer {
+    top: 12%;
+    font-size: 10px;
+  }
+  .MyName {
+    font-size: 1rem;
+  }
+  .description {
+    bottom: 30%;
+    font-size: 8px;
   }
 }
