@@ -31,7 +31,7 @@ const Header = ({ endTouched }: { endTouched: boolean }) => {
             <SiGithub size="1.5rem" color="white" className={styles.icon} />
           </a>
         </div>
-        <ul className={styles.onglets}>
+        <ul className={styles.onglets} style={{ color: "#ffffff" }}>
           <li>
             <Link href="#home">
               <a className={styles.ongletItem}>Home</a>

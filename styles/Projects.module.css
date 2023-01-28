@@ -1,6 +1,6 @@
 .container {
   margin: 20vh 0%;
-  height: 280vh;
+  height: 200vh;
 }
 
 .titleContainer {
@@ -8,7 +8,7 @@
 }
 
 .title {
-  color: #8f94fb;
+  color: #9093cc;
   font-size: 2.5rem;
   margin-bottom: 5px;
 }
@@ -17,12 +17,12 @@
   width: 30%;
   height: 5px;
   border-radius: 20px;
-  background-color: #8f94fb;
+  background-color: #c6c8ed;
 }
 
 .projectItem {
   position: relative;
-  height: 90vh;
+  height: 60vh;
   width: 100%;
   padding: 0 10%;
   margin-top: 30px;
@@ -34,18 +34,18 @@
   width: 40%;
   border-radius: 20px;
   box-shadow: -12px 12px 30px rgba(143, 148, 251, 0.4);
-  backdrop-filter: blur(8.5px);
-  -webkit-backdrop-filter: blur(5.5px);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(4px);
   position: absolute;
-  top: 30%;
+  top: 32%;
 }
 
 .projectDescription h1 {
-  color: #8f94fb;
+  color: #101011;
 }
 
 .projectDescriptionText {
-  color: #83c9fd;
+  color: #777d82;
   font-weight: 500;
 }
 
@@ -71,10 +71,9 @@
   z-index: -10;
 }
 
-
 .projectsList {
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   display: flex;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -92,7 +91,6 @@
   position: absolute;
   top: 0;
 }
-
 
 .nextIconsContainer {
   display: flex;
